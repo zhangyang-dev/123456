@@ -8,12 +8,14 @@ public class StringUtilTest2 {
 
 	@Test
 	public void testIsPhone() {
-		fail("Not yet implemented");
+		boolean phone = StringUtil.isPhone("1234546");
+		System.out.println(phone);
 	}
 
 	@Test
 	public void testIsEmail() {
-		fail("Not yet implemented");
+		boolean b = StringUtil.isEmail("A123456@163.com");
+		System.out.println(b);
 	}
 
 }
